@@ -11,5 +11,5 @@ jobs:
       with:
         host: "painel.bolsadedados.com.br"
         username: "ubuntu"
-        key: ${{ secrets.KEY }}
+        key: ${{ secrets.SECRET_KEY }}
         script: whoami
