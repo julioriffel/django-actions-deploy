@@ -9,8 +9,7 @@ jobs:
     - name: executing remote ssh commands using password
       uses: appleboy/ssh-action@master
       with:
-        host: painel.bolsadedados.com.br
-        username: ubuntu
+        host: "painel.bolsadedados.com.br"
+        username: "ubuntu"
         key: ${{ secrets.KEY }}
-        port: 22
         script: whoami
